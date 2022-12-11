@@ -23,7 +23,7 @@ int main(void)
 	}
 
 
-	for (sh = 'A'; sh <= 'z'; sh++)
+	for (sh = 'A'; sh <= 'Z'; sh++)
 	{
 		putchar(sh);
 	}
