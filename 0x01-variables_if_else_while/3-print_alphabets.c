@@ -11,9 +11,9 @@ int main(void)
 {
 	char ch;
 
-	char new;
-
 	char sh;
+
+	char new;
 
 	new = '\n';
 
