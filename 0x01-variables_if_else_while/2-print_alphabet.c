@@ -11,7 +11,9 @@ int main(void)
 {
 	char ch;
 
-	char new = "\n";
+	char new;
+
+	new = "\n";
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
