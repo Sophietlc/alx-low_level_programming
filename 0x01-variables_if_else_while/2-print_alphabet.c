@@ -13,7 +13,7 @@ int main(void)
 
 	char new;
 
-	new = "\n";
+	new = '\n';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
