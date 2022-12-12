@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 /**
-
- *main - 
-
+ *main - Enty point
  *
- * Description: 
+ * Description: Prints all combination of three digits with no digit repeated
  *
-
  *Return: Always 0 (Success)
-
  */
 
 int main(void)
@@ -22,15 +18,11 @@ int main(void)
 	int c;
 
 	for (b = '0'; b <= '9'; b++) /*increment tens*/
-
 	{
 		for (a = (b + 1); a <= '9'; a++) /*one's ten+1*/
-
 		{
-
-			for (c = '0'; c <= '9'; c++) /*increment tens*/
+			for (c = (a + 1); c <= '9'; c++) /*increment tens*/
 			{
-
 
 				putchar(b);
 
@@ -38,7 +30,7 @@ int main(void)
 
 				putchar(c);
 
-				if ( b != '7' || a != '8' || c != '9') /*print commas*/
+				if (b != '7' || a != '8' || c != '9') /*print commas*/
 
 				{
 
@@ -47,7 +39,6 @@ int main(void)
 					putchar(' ');
 
 				}
-
 			}
 		}
 	}
