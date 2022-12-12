@@ -14,11 +14,11 @@ int main(void)
 
 	char az;
 
-	num = 0;
+	num = '0';
 
 	az = 'a';
 
-	while (num <= 9)
+	while (num <= '9')
 	{
 		putchar(num);
 		num++;
