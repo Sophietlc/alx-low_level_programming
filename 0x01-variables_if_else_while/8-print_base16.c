@@ -18,17 +18,19 @@ int main(void)
 
 	az = 'a';
 
-	while (num <= 9; num++)
+	while (num <= 9)
 	{
 		putchar(num);
+		num++;
 	}
 
-	while (az <= 'f'; az++)
+	while (az <= 'f')
 	{
 		putchar(az);
+		az++;
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
