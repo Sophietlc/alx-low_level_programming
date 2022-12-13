@@ -11,6 +11,10 @@
 
 int main(void)
 {
-	putchr('_putchar');
+	char b;
+
+	b = '_putchar'
+
+	putchr(b);
 	return (0);
 }
