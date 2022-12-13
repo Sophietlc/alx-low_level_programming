@@ -11,10 +11,15 @@
 
 int main(void)
 {
-	char b;
+	putchr('_');
+	putchr('p');
+	putchr('u');
+	putchr('t');
+	putchr('c');
+	putchr('h');
+	putchr('a');
+	putchr('r');
+	putchr('\n');
 
-	b = '_putchar'
-
-	putchr(b);
 	return (0);
 }
