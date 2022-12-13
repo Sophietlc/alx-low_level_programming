@@ -9,6 +9,11 @@
  * Return: Always 0 (Success)
  */
 
+void putchr(a)
+{
+	putchar(a);
+}
+
 int main(void)
 {
 	putchr('_');
