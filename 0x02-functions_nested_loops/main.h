@@ -5,7 +5,7 @@ void putchr(char a)
 void print_alphabet(void)
 {
 	char first;
-	first = 'a'
+	first = 'a';
 	for (first <= 'z'; first++)
 	{
 		putchar(first);
