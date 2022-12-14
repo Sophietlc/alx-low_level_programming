@@ -20,6 +20,7 @@ void print_alphabet (void)
 		first++;
 	}
 	_putchar('\n');
+}
 
 int main(void)
 {
