@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-int _putchr(a)
+int _putchr(char c)
 {
 	return (write(1, &c, 1));
 }
