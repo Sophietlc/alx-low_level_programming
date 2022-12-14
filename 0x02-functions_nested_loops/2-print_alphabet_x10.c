@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 
 	i = '0';
 	al = 'a';
-	for (i[] < '10')
+	for (i < 10)
 	{
 		for (al <= 'z')
 		{
