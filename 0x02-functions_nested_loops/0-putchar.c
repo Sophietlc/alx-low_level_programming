@@ -9,22 +9,22 @@
  * Return: Always 0 (Success)
  */
 
-void putchr(a)
+int _putchr(a)
 {
-	putchar(a);
+	return (write(1, &c, 1));
 }
 
 int main(void)
 {
-	putchr('_');
-	putchr('p');
-	putchr('u');
-	putchr('t');
-	putchr('c');
-	putchr('h');
-	putchr('a');
-	putchr('r');
-	putchr('\n');
+	_putchr('_');
+	_putchr('p');
+	_putchr('u');
+	_putchr('t');
+	_putchr('c');
+	_putchr('h');
+	_putchr('a');
+	_putchr('r');
+	_putchr('\n');
 
 	return (0);
 }
