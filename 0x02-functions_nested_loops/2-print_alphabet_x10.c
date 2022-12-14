@@ -10,19 +10,12 @@
 
 void print_alphabet_x10(void)
 {
-	char al;
-
 	int i;
 
 	i = 1;
-	al = 'a';
 	for (i <= 10)
 	{
-		for (al <= 'z')
-		{
-			_putchar(al);
-			al++;
-		}
+		print_alphabet()
 		i++;
 	}
 	_putchar('\n');
