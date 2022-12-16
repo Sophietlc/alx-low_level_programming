@@ -5,12 +5,12 @@
  *
  * @c: character to be checked
  *
- * Return: 1 if c is lowercase, 0 otherwise
+ * Return: 1 if c is uppercase, 0 otherwise
  */
 
 int _isupper(int c)
 {
-	if (c >= 68 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
