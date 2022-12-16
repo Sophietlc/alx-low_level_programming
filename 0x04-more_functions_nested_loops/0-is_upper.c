@@ -10,7 +10,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 68 && c <= 90)
 	{
 		return (1);
 	}
