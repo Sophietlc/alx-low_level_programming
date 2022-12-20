@@ -21,14 +21,13 @@ void print_square(int size)
 	{
 		j = 0;
 
-		for (i = 0; i < j, i++)
+		for (i = 0; i < size, i++)
 		{
-			_putchar('\n');
 			for (j = 0; j < size; j++)
 			{
 				_putchar('#');
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
