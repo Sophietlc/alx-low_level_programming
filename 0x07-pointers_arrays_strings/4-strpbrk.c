@@ -27,12 +27,10 @@ char *_strpbrk(char *s, char *accept)
 				return (&s[i]);
 			}
 
-			else
-				return ('\0');
-
 			j++;
 		}
 
 		i++;
 	}
+	return ('\0');
 }
