@@ -22,7 +22,11 @@ int find_prime(int n, int a)
 		return (1);
 	}
 
-	return (find_prime(n, a + 1));
+	if (n > a)
+	{
+		find_prime(n, a + 1);
+	}
+	return (1);
 }
 
 /**

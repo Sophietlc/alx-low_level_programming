@@ -24,6 +24,7 @@ int find_sqrt(int n, int a)
 	}
 
 	return (find_sqrt(n, a + 1));
+}
 
 /**
  * _sqrt_recursion - finds the square root of a number
