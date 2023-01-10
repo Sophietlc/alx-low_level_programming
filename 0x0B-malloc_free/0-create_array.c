@@ -13,7 +13,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	unsigned int i;
+	int i;
 
 	char *arr;
 
@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 	if (i == 0 || arr == NULL)
 		return (0);
 
-	while (i < size)
+	while (i < (int)size)
 	{
 		arr[i] = c;
 		i++;
