@@ -14,7 +14,8 @@ void rev_string(char *s)
 		s++;
 	}
 
-	int x = 0;
+	int x;
+	x = 0;
 	int y = len - 1;
 	char z;
 
