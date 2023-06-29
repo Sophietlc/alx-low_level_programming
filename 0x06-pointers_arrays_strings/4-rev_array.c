@@ -24,5 +24,6 @@ void reverse_array(int *a, int n)
 		i++;
 		idx--;
 	}
-	return (b);
+	a = b;
+	return (a);
 }
