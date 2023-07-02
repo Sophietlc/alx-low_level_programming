@@ -13,7 +13,7 @@
 void reverse_array(int *a, int n)
 {
 	int idx = n - 1;
-	int b[n];
+	int temp;
 	int i;
 
 	i = 0;
@@ -26,5 +26,4 @@ void reverse_array(int *a, int n)
 		i++;
 		idx--;
 	}
-	return (a);
 }
