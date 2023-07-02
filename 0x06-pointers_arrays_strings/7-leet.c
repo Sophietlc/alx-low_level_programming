@@ -21,7 +21,7 @@ char *leet(char *str)
 	{
 		for (j = 0; *(alph + j) != '\0'; j++)
 		{
-			if *(str + i) == *(alph + j)
+			if (*(str + i) == *(alph + j))
 				*(str + i) = *(leet + j);
 		}
 	}
